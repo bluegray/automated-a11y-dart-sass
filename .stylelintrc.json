@@ -1,0 +1,16 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "scss/double-slash-comment-whitespace-inside": null,
+    "scss/double-slash-comment-empty-line-before": null,
+    "no-descending-specificity": null,
+    "max-empty-lines": 2,
+    "string-quotes": "double",
+    "scss/dollar-variable-empty-line-before": null,
+    "comment-no-empty": null,
+    "scss/comment-no-empty": null,
+    "number-max-precision": 5,
+    "at-rule-empty-line-before": ["always", {"ignore": ["after-comment", "inside-block"],
+                                             "except": ["blockless-after-same-name-blockless", "first-nested"]}]
+  }
+}
